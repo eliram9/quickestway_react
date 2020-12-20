@@ -1,26 +1,22 @@
 import React from 'react'
 
 import './Header.css';
-import Map from '../images/map5.jpg'
 
 const Header = () => {
-    return (  
-        <div className="jumbotron jumbotron-fluid bg-light py-4">
-  
-            <div className="jumbotron-background">
-                <img src={Map} className="blur" />
-            </div>
-
-            <div className="container text-white">
-                <h1 className="display-2">Quickest<strong style={{ color: "#fe5f55", fontStyle: "italic", fontWeight: 700 }}>Way</strong></h1>
-                <p className="lead">Compare Google Maps, Bing Maps and MapQuest for quickest directions</p>
-            </div>
-            <form>
+    return (
+        <div>
+            <h1 className="display-4">Quickest<strong style={{ color: "#c40976", fontStyle: "italic" }}>WAY</strong></h1>
+            <p className="lead">Compare <span style={{ color: "#4284F7" }}>G</span>
+                                        <span style={{ color: "#EF4239" }}>o</span>
+                                        <span style={{ color: "#FFBD06" }}>o</span>
+                                        <span style={{ color: "#4284F7" }}>g</span>
+                                        <span style={{ color: "#31AB52" }}>l</span>
+                                        <span style={{ color: "#EF4239" }}>e</span> Maps, 
+                                        <span style={{ color: "#008170" }}>Bing</span> Maps and 
+                                        <span style={{ color: "black" }}> MapQuest</span> for quickest directions
                 
-                <input type="text" placeholder="start" />
-                <input type="text" placeholder="end" />
-            </form>
-        </div>
+            </p>
+        </div>    
     );
 }
  
