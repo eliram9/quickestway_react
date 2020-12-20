@@ -11,9 +11,9 @@ const Header = () => {
                                         <span style={{ color: "#FFBD06" }}>o</span>
                                         <span style={{ color: "#4284F7" }}>g</span>
                                         <span style={{ color: "#31AB52" }}>l</span>
-                                        <span style={{ color: "#EF4239" }}>e</span> Maps, 
-                                        <span style={{ color: "#008170" }}>Bing</span> Maps and 
-                                        <span style={{ color: "black" }}> MapQuest</span> for quickest directions
+                                        <span style={{ color: "#EF4239" }}>e</span>, 
+                                        <span style={{ color: "#008170" }}>Bing</span> and 
+                                        <span style={{ color: "black" }}> MapQuest</span> maps for quickest directions
                 
             </p>
         </div>    
